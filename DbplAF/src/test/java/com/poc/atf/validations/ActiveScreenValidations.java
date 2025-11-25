@@ -28,6 +28,8 @@ public class ActiveScreenValidations {
 	CreateDOService createDOService = new CreateDOService();
 	CreateDOData createDOData = new DBPLDataConfig().getCreateDOData();
 	
+	
+	//Active
 	public void  validateGridData(ActiveScreenService activescreenservice) {
 		assertEquals(activeScreenService.gridText(), logindata.getTruckNo());
 	}
