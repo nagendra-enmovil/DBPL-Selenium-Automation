@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End-to-End Feature Tests">
+  <test name="Login and Consignmnet tests">
+    <classes>
+      <class name="com.poc.atf.testscripts.ActiveTestScripts" />
+      <class name="com.poc.atf.testscripts.CreateDoTestScripts" />
+      <class name="com.poc.atf.testscripts.MenuandRespectiveNamesTestScripts" />
+      <!-- Add more test classes here if needed -->
+    </classes>
+  </test>
+</suite>

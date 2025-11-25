@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [End-to-End Feature Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login and Consignmnet tests(failed)">
+    <classes>
+      <class name="com.poc.atf.testscripts.MenuandRespectiveNamesTestScripts">
+        <methods>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="init"/>
+          <include name="activeScreenTest"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.poc.atf.testscripts.MenuandRespectiveNamesTestScripts -->
+      <class name="com.poc.atf.testscripts.ActiveTestScripts">
+        <methods>
+          <include name="activeScreenTest"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.poc.atf.testscripts.ActiveTestScripts -->
+    </classes>
+  </test> <!-- Login and Consignmnet tests(failed) -->
+</suite> <!-- Failed suite [End-to-End Feature Tests] -->
